@@ -1,0 +1,26 @@
+.main-content p {
+    width: 90%;
+    margin: 0 auto;
+    text-align: left;
+    color: #5c5c5c;
+    line-height: 1.6rem;
+    padding: 2vh 0;
+}
+
+.fat {
+    font-weight: 700;
+}
+
+#profile-pic {
+    width: 90%;
+}
+
+#publications {
+    font-weight: 700;
+    font-size: 1.1rem;
+    padding-top: 3.5vh;
+}
+
+.list {
+    font-size: 0.8rem;
+}

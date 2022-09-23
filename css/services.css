@@ -1,0 +1,12 @@
+h2 {
+    font-size: 1.3rem;
+    line-height: 1.8rem;
+    font-weight: 700;
+    padding-top: 6vh;
+}
+
+main p {
+    font-style: italic;
+    line-height: 1.6;
+    margin: 20vh 0;
+}

@@ -1,0 +1,131 @@
+/* GENERAL */
+
+*, *::before, *::after {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Montserrat', sans-serif;
+    text-align: center;
+    width: 100%;
+    height: 100%;
+}
+
+/* HEADER */
+
+header {
+    padding-top: 12px;
+    text-align: center;
+    background-color: rgba(255,255,255,.9);
+    margin-top: 6px;
+    position: sticky;
+    top: 0;
+}
+
+header button {
+    border: none;
+    background: none;
+    color: #D8D8D8;
+    font-size: 0.9rem;
+    font-weight: 500;
+    margin: 0;
+}
+
+hr {
+    width: 90%;
+    border-top: 2px solid #D8D8D8;
+    border-bottom: none;
+    margin-top: 14px;
+}
+
+#menuMobile {
+    display: none;
+    position: sticky;
+    top: 46px;
+    background-color: rgba(255,255,255,.9);
+}
+
+.menuMobile a {
+    display: block;
+    padding: 10px 0;
+    text-decoration: none;
+    color: #D8D8D8;
+    font-weight: 400;
+}
+
+.menuMobile a:hover {
+    text-decoration: underline 2px #d8d8d8a7;
+    text-underline-offset: 6px;
+}
+
+/* MAIN */
+
+.hero {
+    text-align: center;
+    padding: 4vh 6vw;
+}
+
+.hero a {
+    text-decoration: none;
+    color: black;
+    font-size: 3.5rem;
+    font-weight: 600;
+    line-height: 5.8rem;
+}
+
+.hero h3 {
+    padding: 3vh 0;
+    letter-spacing: 0.3rem;
+    font-weight: 700;
+    color: #D8D8D8;
+    margin-top: 2vh;
+}
+
+.golden {
+    width: 90%;
+    margin: 0 auto;
+}
+
+.quote {
+    width: 90%;
+    margin: 0 auto;
+    padding: 4vh 0;
+}
+
+.quote p:first-child {
+    color: #5c5c5c;
+    font-size: 0.8rem;
+    line-height: 1.5rem;
+    text-align:justify;
+}
+
+.quote p:last-child {
+    color: #5c5c5c;
+    font-size: 0.8rem;
+    line-height: 1.5rem;
+    text-align: right;
+    padding-top: 2vh;
+}
+
+.quote-italic {
+    font-style: italic;
+}
+
+/* FOOTER */
+
+footer p {
+    padding: 1vh 0;
+    font-size: 0.6rem;
+    color: #5c5c5c;
+}
+
+#satu {
+    color: #5c5c5c;
+    text-decoration: none;
+    font-weight: 600;
+}
+
+#icon {
+    font-size: 2rem;
+    color: black;
+}

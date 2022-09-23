@@ -1,0 +1,72 @@
+#sky-pic {
+    width: 90%;
+}
+
+.contacts {
+    margin: 4vh 0;
+    font-size: 0.9rem;
+    line-height: 1.6rem;
+}
+
+form div {
+    text-align: left;
+    width: 90%;
+    margin: 0 auto;
+}
+
+form input {
+    width: 100%;
+    background-color: #FAFAFA;
+    border: 1px solid lightgrey;
+    padding: 12px 6px;
+    border-radius: 4px;
+}
+
+form input::placeholder {
+    font-size: 0.7rem;
+    letter-spacing: 0.1rem;
+    color: lightgray;
+}
+
+h4 {
+    padding: 8px;
+    margin-top: 4vh;
+    color: #5c5c5c;
+}
+
+.name-surname {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    gap: 6px;
+}
+
+textarea {
+    width: 100%;
+    background-color: #FAFAFA;
+    border: 1px solid lightgrey;
+    padding: 12px 6px;
+    border-radius: 4px;
+}
+
+textarea::placeholder {
+    font-size: 0.7rem;
+    letter-spacing: 0.1rem;
+    color: lightgray;
+    font-family: 'Montserrat', sans-serif;
+}
+
+form button {
+    color: #272727;
+    border: 2px solid #272727;
+    background-color: white;
+    padding: 14px 35px;
+    margin-top: 2vh;
+    transition: 0.3s;
+}
+
+form button:hover {
+    background-color: #272727;
+    color: 
+    white;
+}
